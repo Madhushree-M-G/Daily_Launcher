@@ -44,14 +44,17 @@ daily-launcher/
 │ ├── app.py # Flask API server
 │ ├── requirements.txt # Python dependencies
 │ └── daily_launcher.db # SQLite database (auto-created)
+│
 ├── frontend/
 │ ├── public/
 │ │ ├── index.html # Main HTML file
 │ │ └── manifest.json # PWA manifest
+│ │
 │ ├── src/
 │ │ ├── App.js # Main React component
 │ │ ├── index.js # React entry point
-│ │ └── index.css # Tailwind CSS
+│ │ └── index.css # Tailwind CSS styles
+│ │
 │ ├── package.json # Node dependencies
 │ └── tailwind.config.js # Tailwind configuration
 
