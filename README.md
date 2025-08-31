@@ -2,7 +2,7 @@
 
 A full-stack web application for students, freelancers, and professionals who open multiple URLs daily.  
 Instead of typing the same 5–10 URLs every day, save them as **collections** and launch all with **one click**.  
-Supports **window layouts, delays, session management, and customization** for a productivity boost.  
+Supports **window layouts, delays and customization** for a productivity boost.  
 
 ---
 
@@ -13,23 +13,17 @@ Supports **window layouts, delays, session management, and customization** for a
 - **Save Collections** – Organize URLs into named collections
 - **One-Click Launch** – Open all URLs in a collection instantly
 - **Delete Collections** – Remove collections when no longer needed
-- **URL Validation** – Prevents invalid URLs
 - **Duplicate Prevention** – Avoids saving the same URL twice
-- **Responsive Design** – Works seamlessly on desktop, tablet, and mobile
 
 ### 🌟 Extra Features
 - 🎨 **Dark/Light Theme** – Toggle themes with persistence
 - 📊 **Usage Analytics** – Track launches & usage stats
-- ⭐ **Favorites System** – Mark frequently used collections
 - 🏷️ **Tags & Categories** – Organize collections with custom tags
 - 🔍 **Search & Filter** – Quickly find collections
-- 📱 **PWA Support** – Install as desktop/mobile app
-- 🎯 **URL Previews** – Shows favicons & titles automatically
 - 💾 **Import/Export** – Backup and restore collections
 - ⌨️ **Keyboard Shortcuts** – Quick actions (Ctrl+N, Ctrl+S, Ctrl+/)
 - 🎨 **Custom Themes** – Each collection can have its own theme
 - 📈 **Launch Statistics** – See which collections you use most
-- 🌐 **URL Health Check** – Validates URLs and fetches metadata
 - 📝 **Rich Descriptions** – Add detailed notes
 - 🖥️ **Window Resizer Options** – Open URLs in layouts (left, right, top, bottom, grid)
 - ⏱️ **Delay Loader** – Open URLs with delay to reduce overload
