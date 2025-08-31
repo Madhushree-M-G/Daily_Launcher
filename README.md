@@ -40,13 +40,20 @@ Supports **window layouts, delays and customization** for a productivity boost.
 
 ## 📂 Project Structure
 daily-launcher/
+
 ├── backend/
+
 │ ├── app.py # Flask API server
+
 │ ├── requirements.txt # Python dependencies
+
 │ └── daily_launcher.db # SQLite database (auto-created)
+
 │
 ├── frontend/
+
 │ ├── public/
+
 │ │ ├── index.html # Main HTML file
 │ │ └── manifest.json # PWA manifest
 │ │
