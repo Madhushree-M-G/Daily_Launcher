@@ -39,39 +39,27 @@ Supports **window layouts, delays and customization** for a productivity boost.
 ---
 
 ## 📂 Project Structure
+```plaintext
 daily-launcher/
-
 ├── backend/
-
 │ ├── app.py # Flask API server
-
 │ ├── requirements.txt # Python dependencies
-
 │ └── daily_launcher.db # SQLite database (auto-created)
-
 │
 ├── frontend/
-
 │ ├── public/
-
 │ │ ├── index.html # Main HTML file
-
 │ │ └── manifest.json # PWA manifest
-
 │ │
 │ ├── src/
-
 │ │ ├── App.js # Main React component
-
 │ │ ├── index.js # React entry point
-
 │ │ └── index.css # Tailwind CSS styles
 │ │
 │ ├── package.json # Node dependencies
-
 │ └── tailwind.config.js # Tailwind configuration
 
-
+```
 ---
 
 ## ⚡ Setup Instructions (Windows + VS Code)
@@ -85,28 +73,29 @@ daily-launcher/
   - Tailwind CSS IntelliSense
 
 ### 2️⃣ Clone Repository
-
+```bash
 git clone https://github.com/your-username/daily-launcher.git
 cd daily-launcher
-
+```
 ### 3️⃣ Setup Backend
+```bash
 cd backend
 python -m venv venv
 venv\Scripts\activate   # Windows
 pip install -r requirements.txt
 python app.py
-
+```
 
 Backend runs on http://127.0.0.1:5000
 
 ### 4️⃣ Setup Frontend
 
 Open new terminal:
-
+```bash
 cd frontend
 npm install
 npm run dev
-
+```
 
 Frontend runs on http://localhost:5173
 
